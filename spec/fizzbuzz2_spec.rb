@@ -9,4 +9,8 @@ describe 'fizzbuzz' do
   it 'returns fizz if the number is a multiple of 3' do
     expect(3.fizzbuzz).to eq "Fizz" 
   end
+
+  it 'return buzz if the number is a multiple of 5' do
+    expect(5.fizzbuzz).to eq "Buzz"
+  end
 end
