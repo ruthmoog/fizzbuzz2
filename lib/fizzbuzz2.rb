@@ -1,7 +1,9 @@
 class Fixnum
   def fizzbuzz
-    case self % 3
-    when 0
+    case self
+    when 5
+      "Buzz"
+    when 3
       "Fizz"
     else
       1
