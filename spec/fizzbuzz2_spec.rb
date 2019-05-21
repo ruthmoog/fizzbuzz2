@@ -2,7 +2,7 @@ require "fizzbuzz2.rb"
 
 describe 'fizzbuzz' do
 
-  it 'returns a number when given a number'do
+  it 'returns a 1 when given 1'do
     expect(1.fizzbuzz).to eq 1
   end
 
@@ -17,4 +17,9 @@ describe 'fizzbuzz' do
   it 'returns fizzbuzz if the number is 15' do
     expect(15.fizzbuzz).to eq "FizzBuzz"
   end
+
+  it 'returns returns fizz if the number is a multiple of 3' do
+    expect(6.fizzbuzz).to eq "Fizz"
+  end
+
 end
