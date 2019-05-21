@@ -1,6 +1,5 @@
 class Fixnum
   def fizzbuzz
-    "3"
+    1
   end
 end
-
