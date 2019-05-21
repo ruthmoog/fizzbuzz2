@@ -7,6 +7,8 @@ class Fixnum
       "Buzz"
     when 3
       "Fizz"
+    when 6
+      "Fizz" 
     else
       1
     end

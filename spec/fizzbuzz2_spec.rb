@@ -18,7 +18,7 @@ describe 'fizzbuzz' do
     expect(15.fizzbuzz).to eq "FizzBuzz"
   end
 
-  it 'returns returns fizz if the number is a multiple of 3' do
+  it 'returns fizz if the number is a multiple of 3' do
     expect(6.fizzbuzz).to eq "Fizz"
   end
 
