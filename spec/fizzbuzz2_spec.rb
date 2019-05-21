@@ -26,4 +26,8 @@ describe 'fizzbuzz' do
     expect(4.fizzbuzz).to eq 4
   end
 
+  it 'returns error when given string' do
+    expect {"string".fizzbuzz}.to raise_error NoMethodError
+  end
+
 end
