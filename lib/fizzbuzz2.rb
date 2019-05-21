@@ -6,10 +6,8 @@ class Fixnum
       "Fizz"
     elsif self % 5 == 0
       "Buzz"
-    elsif self == 1
-      1
-    elsif self == 4
-      4
+    else
+      self
     end
   end
 end
