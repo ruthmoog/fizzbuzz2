@@ -1,14 +1,11 @@
 class Fixnum
   def fizzbuzz
-    case self
-    when 15
+    if self % 3 == 0 && self % 5 == 0
       "FizzBuzz"
-    when 5
-      "Buzz"
-    when 3
+    elsif self % 3 == 0
       "Fizz"
-    when 6
-      "Fizz" 
+    elsif self % 5 == 0
+      "Buzz"
     else
       1
     end
