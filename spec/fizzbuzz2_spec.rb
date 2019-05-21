@@ -22,4 +22,8 @@ describe 'fizzbuzz' do
     expect(6.fizzbuzz).to eq "Fizz"
   end
 
+  it 'returns a 4 when given 4'do
+    expect(4.fizzbuzz).to eq 4
+  end
+
 end
