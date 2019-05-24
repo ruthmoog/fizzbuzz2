@@ -1,4 +1,4 @@
-#FizzBuzz
+# FizzBuzz
 
 The classic coding challenge!  The script will replace any number divisible by three with the word "Fizz", and any number divisible by five with the word "Buzz".  Numbers divisible by both three and five are replaced with "FizzBuzz".
 
