@@ -12,7 +12,7 @@ To run the tests, you'll need RSpec
 
 ## Contributors
 
-This code was written using ping-pong pair programming
+This code was written using remote [ping-pong pair programming](https://tobeagile.com/2017/01/04/ping-pong-pairing/)
 
 - [Ayelisha Amoah](https://github.com/ayelishaamoah)
 - [Ruth Baker](https://github.com/ruthmoog) | [@ruthmoog](https://twitter.com/ruthmoog)
